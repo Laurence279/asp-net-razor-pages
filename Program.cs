@@ -1,7 +1,20 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<RazorPagesMagicItemContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesMagicItemContext")));
+}
+else
+{
+    builder.Services.AddDbContext<RazorPagesMagicItemContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesMagicItemContext")));
+}
 
 var app = builder.Build();
 
