@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using RazorPagesApp.Models;
 
-namespace razor_page_app.Pages_MagicItems
+namespace RazorPagesApp.Pages.MagicItems
 {
     public class DeleteModel : PageModel
     {

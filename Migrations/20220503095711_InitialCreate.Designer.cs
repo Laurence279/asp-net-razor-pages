@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace razor_page_app.Migrations
+namespace RazorPagesApp.Migrations
 {
     [DbContext(typeof(RazorPagesMagicItemContext))]
     [Migration("20220503095711_InitialCreate")]

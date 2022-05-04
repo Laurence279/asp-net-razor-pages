@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace razor_page_app.Migrations
+namespace RazorPagesApp.Migrations
 {
     public partial class InitialCreate : Migration
     {

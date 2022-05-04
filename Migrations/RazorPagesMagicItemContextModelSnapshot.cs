@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace razor_page_app.Migrations
+namespace RazorPagesApp.Migrations
 {
     [DbContext(typeof(RazorPagesMagicItemContext))]
     partial class RazorPagesMagicItemContextModelSnapshot : ModelSnapshot

@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "razor_page_app": {
+    "RazorPagesApp": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

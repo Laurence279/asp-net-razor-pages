@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RazorPagesApp.Models;
 
-namespace razor_page_app.Pages_MagicItems
+namespace RazorPagesApp.Pages.MagicItems
 {
     public class CreateModel : PageModel
     {
